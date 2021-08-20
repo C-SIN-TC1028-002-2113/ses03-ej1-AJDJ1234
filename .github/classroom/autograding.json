@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "PEMDAS",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/11PEMDAS",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "CantidadLitrosPintura",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/13CantidadLitrosPintura",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
